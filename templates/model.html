@@ -1,0 +1,82 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Check GPA</title>
+        <style>
+            body
+            {
+                background-size:cover;
+            }
+            #container
+            {
+                margin: 5px;
+                padding: 5px;
+            }
+            label
+            {
+                margin-left: 50px;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 26px;
+                color: rgb(0, 0, 0);
+            }
+            form
+            {
+                position: relative;
+                left: 180px;
+                justify-content: center;
+                margin: 100px 100px;
+                width: 60%;
+                height: 170%;
+                border: 1px solid black;
+                padding: 10px;
+                background-color: #1333e31c;
+            }
+            input
+            {
+                margin-left: 300px;
+                width: 50%;
+                height: 35px;
+                margin-bottom: 20px;
+                text-align: center;
+                font-size: 1.5em;
+                background-color: rgb(232, 232, 162);
+                border-color: black;
+            }
+            button
+            {
+                margin-top: 30px;
+                margin-left: 300px;
+                margin-bottom: 20px;
+                width: 50%;
+                height: 35px;
+                font-size: 1.5em;
+                background-color: rgb(114, 205, 211);
+            }
+        </style>
+    </head>
+    <body background = "static/img1.webp">
+        <div id = "container">
+        <form action = "/model" method = "post">
+            <br/><br/>
+            <label for="ml">Machine Learning</label></br>
+            <input type = "number" id = "ml" name = "ml" placeholder="Enter Grade" min = "4" max = "10"></br>
+            <label for="ml">Design and Analysis of Algorithm</label></br>
+            <input type = "number" id = "daa" name = "daa" placeholder="Enter Grade" min = "4" max = "10"></br>
+            <label for="ml">Database Management System</label></br>
+            <input type = "number" id = "dbms" name = "dbms" placeholder="Enter Grade" min = "4" max = "10"></br>
+            <label for="ml">Statistical Inference</label></br>
+            <input type = "number" id = "si" name = "si" placeholder="Enter Grade" min = "4" max = "10"></br>
+            <label for="ml">Data Mining</label></br>
+            <input type = "number" id = "dm" name = "dm" placeholder="Enter Grade" min = "4" max = "10"></br>
+            <label for="ml">Internet of Things</label></br>
+            <input type = "number" id = "iot" name = "iot" placeholder="Enter Grade" min = "4" max = "10"></br>
+            <label for="ml">DBMS Lab</label></br>
+            <input type = "number" id = "dbms lab" name = "dbms_lab" placeholder="Enter Grade" min = "4" max = "10"></br>
+            <label for="ml">Machine Learning Lab</label></br>
+            <input type = "number" id = "ml lab" name = "ml_lab" placeholder="Enter Grade" min = "4" max = "10"></br>
+            <button type="submit">Check GPA</button>
+            <br/><br/>
+        </form>
+        </div>
+    </body>
+</html>
