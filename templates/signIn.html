@@ -1,0 +1,59 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <style>
+            body
+            {
+                background-size:cover;
+            }
+            #container
+            {
+                margin: 5px;
+                padding: 5px;
+            }
+            form
+            {
+                position: relative;
+                left: 250px;
+                top: 100px;
+                justify-content: center;
+                margin: 100px 100px;
+                width: 50%;
+                height: 150%;
+                border: 1px solid black;
+                padding: 10px;
+                background-color: #63b0ec29;
+            }
+            input
+            {
+                margin-left: 180px;
+                width: 50%;
+                height: 35px;
+                margin-bottom: 20px;
+                text-align: center;
+                background-color: rgba(111, 220, 227, 0.375);
+                border-color: black;
+            }
+            button
+            {
+                margin-left: 180px;
+                margin-bottom: 20px;
+                width: 50%;
+                height: 35px;
+                background-color: rgb(0, 198, 212);
+            }
+        </style>
+    </head>
+    <body background = "static/img2.avif">
+        <div id = "container">
+        <form action = "/signUp" method = "post">
+            <br/><br/>
+            <input type = "text" id = "mail" name = "username" placeholder="Username"><br><br>
+            <input type = "password" id = "password" name = "password" placeholder="Password"><br><br>
+            <button type="submit">Sign Up</button>
+            <br/><br/>
+        </form>
+        </div>
+    </body>
+</html>
