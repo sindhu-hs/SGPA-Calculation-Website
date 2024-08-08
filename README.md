@@ -3,6 +3,12 @@
 ### Aim
 To host a website that calculates SGPA of a student given the scores of the student in all the subjects in that semester.
 
+### Order of execution
+1. Dowload the model.csv file.
+2. Execute data.py
+3. Execute app.py
+Make sure to install the required packages & have a SQL database to store user information.
+
 ### Data
 "model.csv" is the data file which contains the following details:
   - data = Grade points and SGPA of 1000 students.
@@ -29,9 +35,3 @@ This section is dealt in "app.py"
       - Once the user has successfully logged in, the user is asked to enter grade points scored in             
         corresponding subjects.
       - Once submitted, the SGPA is printed on screen.
-
-### Order of execution
-1. Dowload the model.csv file.
-2. Execute data.py
-3. Execute app.py
-Make sure to install the required packages & have a SQL database to store user information.
