@@ -1,5 +1,8 @@
 ## Website for SGPA Calculation
 
+### Aim
+To host a website that calculates SGPA of a student given the scores of the student in all the subjects in that semester.
+
 ### Data
 "model.csv" is the data file which contains the following details:
   - data = Grade points and SGPA of 1000 students.
