@@ -1,7 +1,7 @@
 ## Website for SGPA Calculation
 
 ### Aim
-To host a website that calculates SGPA of a student given the scores of the student in all the subjects in that semester.
+To host a website that calculates SGPA of a student given the scores in all the subjects in that semester.
 
 ### Order of execution
 1. Dowload the model.csv file.
