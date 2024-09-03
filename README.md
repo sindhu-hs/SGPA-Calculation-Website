@@ -24,7 +24,7 @@ This section is dealt in "data.py" & the model is stored in "regression_model.pk
 
 ### Creating the website
 This section is dealt in "app.py"
-  - **Flask** helps integrate python code with html qhich is required to load the values entered through the        website in python variable, which will be sent as a parameter for model prediction.
+  - **Flask** helps integrate python code with html which is required to load the values entered through the        website in python variable, which will be sent as a parameter for model prediction.
   - Login page: 
       - Collects username & password.
       - All the existing user's details are stored in a SQL database.
